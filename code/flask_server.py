@@ -1,10 +1,14 @@
-"""Simple flask server to display data."""
+"""Simple flask server to display data.
+
+It uses two different routes in order to show routing stuff in flask.
+For the demo go to => APP_ADDRE:APP_PORT/1 (ie: http://localhost:8000/1)
+"""
 
 from flask import Flask
 from flask import render_template
 
-from ploting_utils import *
-from datasource import *
+from ploting_utils import line_plot
+from datasource import SerialReader
 
 app = Flask(__name__)
 

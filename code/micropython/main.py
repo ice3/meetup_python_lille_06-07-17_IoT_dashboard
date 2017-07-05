@@ -7,8 +7,7 @@ while True:
         (hum, tem) = dht22.measure()
         print("DATA {} {}".format(hum, tem))
     except Exception as e:
-        print("BEGIN ERROR")
+        print("ohoh :(")
         print("{}".format(e))
-        print("END ERROR")
 
     pyb.delay(3000)

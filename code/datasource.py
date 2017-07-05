@@ -76,7 +76,7 @@ class SerialReader(Thread):
 
     def stop(self):
         self.running = False
-        self.serial.write_timeout = 0.001
+        self.serial.timeout = 0.001
         self.join()
         del self.serial
 
