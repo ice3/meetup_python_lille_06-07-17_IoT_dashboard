@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SUPER APP</title>
+
+  <link rel="stylesheet" href="/static/bootstrap-3.3.5-dist/uncss/bootstrap.css" type="text/css">
+
+  <script type="text/javascript" src="/static/plotly-latest.min.js"></script>
+</head>
+<body>
+
+  <div class="">
+    <div class="Presentation">
+      Vos données :
+    </div>
+
+    <div class="container">
+      <div class="row">
+        {%for plot in plots%}
+        <div class="col-md-4 responsive-plot">
+          {{ plot | safe }}
+        </div>
+        {%endfor%}
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+<script type="text/javascript" src="/static/resize.js"></script>
+</html>
