@@ -54,7 +54,7 @@ Intérêt pédagogique seulement...
 
 <div style="margin-bottom: 3em;"></div>
 
- * protocole RS323
+ * protocole RS232
  * full duplex
  * plutôt facile à utiliser
  * très utilisé encore de nos jours dans l'IoT
@@ -65,8 +65,7 @@ Intérêt pédagogique seulement...
 <div style="margin-bottom: 2em;"></div>
 
  * framework web léger
- * création facile d'appli web
- * Matthieu + Flask = 💘
+ * création facile d'appli WEB
 
 
 ## Charting
