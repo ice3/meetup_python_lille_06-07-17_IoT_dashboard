@@ -87,7 +87,7 @@ Intérêt pédagogique seulement...
 
 ##
 
-<img src="/demo.jpg" style="width: 45%; height: 45%"/>
+<img src="demo.jpg" style="width: 45%; height: 45%"/>
 
 
 # Et alors ?
@@ -130,7 +130,7 @@ Python :
 
 <hr>
 
-<img src="/biohazard.png"/>
+<img src="biohazard.png"/>
 
 Inspiration / découverte / pas en production
 
@@ -142,4 +142,4 @@ Inspiration / découverte / pas en production
 
 ## Merci
 
-<img src="/axolot.png" style="width: 45%; height: 45%"/>
+<img src="axolot.png" style="width: 45%; height: 45%"/>

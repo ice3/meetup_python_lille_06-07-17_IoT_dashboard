@@ -17,7 +17,7 @@ $(REVEAL_DIR_CSS)/reveal.min.css: $(REVEAL_DIR_CSS)/reveal.css
 $(REVEAL_DIR_JS)/reveal.min.js: $(REVEAL_DIR_JS)/reveal.js
 	cp $< $@
 
-all: index.html $(COPY_FILES)
+all: reveal.js index.html $(COPY_FILES)
 	python -m SimpleHTTPServer
 
 clean:
